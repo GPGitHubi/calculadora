@@ -1,0 +1,68 @@
+* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: darkslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.background {
+    background-color: darkgray;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+.botao {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    background-color: red;
+    color: yellow;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: black;
+}
+
+#resultado {
+    text-align: right;
+    padding: 50px;
+    margin-bottom: 10px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    background-color: darkcyan;
+    font-size: 50px;
+    font-weight: bold;
+}
